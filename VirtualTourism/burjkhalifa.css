@@ -112,6 +112,18 @@ div img{
     height: 380px;
 }
 
+.video-responsive{
+    height: 5px;
+    width: 5px;
+    }
+    .video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
 @media only screen and (max-width: 1920px) {
     div.scroll{
         width:500px;
@@ -119,6 +131,33 @@ div img{
 
     .map{
         width:980px;
+    }
+
+    .textheader{
+        font-size: 35px;
+    }
+
+    .box1{
+        font-size: 30px;
+        width:450px;
+        height:320px;
+    }
+
+    .box2{
+        margin-top:30px;
+        font-size: 30px;
+        width:450px;
+        height:460px;
+    }
+  }
+
+  @media only screen and (min-width: 1366px) {
+    div.scroll{
+        width:480px;
+    }
+
+    .map{
+        width:970px;
     }
 
     .textheader{
