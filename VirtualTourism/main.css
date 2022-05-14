@@ -30,6 +30,7 @@ body {
       font-weight:bold;
       font-family:'Segoe UI';
       color: #ffffff;
+      text-shadow: 0 0 10px #000;
   }
 
   div.gallery {
@@ -53,9 +54,10 @@ body {
   }
   
   div.gallery img {
-    border-radius: 27px;
+    border-radius: 28px;
     width: 100%;
     height: 280px;
+    box-shadow: 0 0 20px #000000;
   }
   
   div{
