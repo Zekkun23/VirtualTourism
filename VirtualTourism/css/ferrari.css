@@ -24,7 +24,7 @@ h1{
     -webkit-text-fill-color: #565699;
     margin-left:350px;
     margin-right:350px;
-    margin-top:20px;
+    margin-top:-20px;
     border-radius:20px;
 }
 /*Css for all of the div*/
@@ -124,40 +124,46 @@ div img{
     position:absolute;
     }
 
-@media only screen and (max-width: 2020px) {
-    div.scroll{
-        width:500px;
+    button{
+        margin-right:auto;
+        border-radius:5px;
     }
 
-    .map{
-        width:980px;
-    }
+    @media (min-width: 1551px) {
+        div.scroll{
+            width:680px;
+        }
+    
+        .map{
+            width:1200px;
+        }
+    
+        .textheader{
+            font-size: 35px;
+        }
+    
+        .box1{
+            font-size: 30px;
+            width:580px;
+            height:230px;
+        }
+    
+        .box2{
+            margin-top:30px;
+            font-size: 30px;
+            width:580px;
+            height:220px;
+        }
+      }
 
-    .textheader{
-        font-size: 35px;
-    }
 
-    .box1{
-        font-size: 30px;
-        width:450px;
-        height:320px;
-    }
-
-    .box2{
-        margin-top:30px;
-        font-size: 30px;
-        width:450px;
-        height:460px;
-    }
-  }
-
-  @media only screen and (min-width: 1366px) {
+  @media (min-width: 1025px) and (max-width: 1550px) {
     div.scroll{
         width:480px;
     }
 
     .map{
-        width:970px;
+        width:1000px;
     }
 
     .textheader{
@@ -166,14 +172,14 @@ div img{
 
     .box1{
         font-size: 30px;
-        width:450px;
-        height:300px;
+        width:420px;
+        height:330px;
     }
 
     .box2{
         margin-top:30px;
         font-size: 30px;
-        width:450px;
-        height:300px;
+        width:420px;
+        height:320px;
     }
   }
