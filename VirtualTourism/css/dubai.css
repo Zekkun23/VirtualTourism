@@ -83,6 +83,11 @@ div:hover {
     box-shadow: 0 0 20px #ffffff;
   }
 
+  button{
+    margin-right:auto;
+    border-radius:5px;
+}
+
 
 
 

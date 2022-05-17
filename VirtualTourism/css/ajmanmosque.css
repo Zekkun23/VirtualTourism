@@ -11,7 +11,7 @@ body{
 header {
     height: 150px;
     background-size: cover;
-    background-image:url("images/headers/burjheader.jpg");
+    background-image:url("../images/headers/ajmanheader.jpg");
     border-radius: 20px;
 }
 /*Header text css*/
@@ -65,7 +65,7 @@ div.scroll::-webkit-scrollbar {
     font-size: 35px;
     background-color: #F0E2CD;
     width:650px;
-    height:420px;
+    height:440px;
 }
 /*Css for the part with the map*/
 .map{
@@ -124,7 +124,7 @@ div img{
     position:absolute;
     }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 2020px) {
     div.scroll{
         width:500px;
     }
@@ -167,13 +167,13 @@ div img{
     .box1{
         font-size: 30px;
         width:450px;
-        height:320px;
+        height:260px;
     }
 
     .box2{
         margin-top:30px;
         font-size: 30px;
         width:450px;
-        height:460px;
+        height:300px;
     }
   }

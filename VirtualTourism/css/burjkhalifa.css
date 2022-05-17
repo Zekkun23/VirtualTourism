@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+  }
+
+/*This is the css for the background color*/
+body{
+    background-size: cover;
+    background-color: #92755B;
+}
+/*Header css, including the image*/
+header {
+    height: 150px;
+    background-size: cover;
+    background-image:url("../images/headers/burjheader.jpg");
+    border-radius: 20px;
+}
+/*Header text css*/
+h1{
+    font-size:100px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke:2px white;
+    -webkit-text-fill-color: #565699;
+    margin-left:350px;
+    margin-right:350px;
+    margin-top:-20px;
+    border-radius:20px;
+}
+/*Css for all of the div*/
+div{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    float: left;
+    border-radius: 30px;
+    box-shadow: 0 0 40px #000000;
+}
+/*Css only for the scrollable part of the page*/
+div.scroll {
+    margin-top:30px;
+    background-color: #C0A27E;
+    border: 3px solid;
+    width:750px;
+    height:800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+/*Css code to make the scrollwheel invisible*/
+div.scroll::-webkit-scrollbar {
+    display: none;
+}
+/*ss for the first text wall*/
+.box1{
+    font-size: 35px;
+    background-color: #F0E2CD;
+    width:650px;
+    height:320px;
+}
+/*Css for the second text wall*/
+.box2{
+    margin-top:30px;
+    font-size: 35px;
+    background-color: #F0E2CD;
+    width:650px;
+    height:420px;
+}
+/*Css for the part with the map*/
+.map{
+    border: 3px solid;
+    margin-top:30px;
+    width:1135px;
+    height:800px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    float: right;
+    border-radius: 30px;
+    background-color: #C0A27E;
+}
+/*Css for the "About Landmark" text*/
+.textheader{
+    font-size: 50px;
+    font-weight: bold;
+    color:#6b5542;
+}
+/*css for the big "LOCATION" text on the right side*/
+.locationheader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color:white;
+}
+/*Css for the text walls inside the boxes*/
+text {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/*Css for the images in the scrollable part*/
+div img{
+    border-radius: 20px;
+    padding-top:10px;
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom:0px;
+    width: 100%;
+    height: 380px;
+}
+
+.video-responsive{
+    height: 5px;
+    width: 5px;
+    }
+    .video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    button{
+        margin-right:auto;
+        border-radius:5px;
+    }
+
+    @media (min-width: 1551px) {
+        div.scroll{
+            width:680px;
+        }
+    
+        .map{
+            width:1200px;
+        }
+    
+        .textheader{
+            font-size: 35px;
+        }
+    
+        .box1{
+            font-size: 30px;
+            width:580px;
+            height:220px;
+        }
+    
+        .box2{
+            margin-top:30px;
+            font-size: 30px;
+            width:580px;
+            height:350px;
+        }
+      }
+
+
+  @media (min-width: 1025px) and (max-width: 1550px) {
+    div.scroll{
+        width:480px;
+    }
+
+    .map{
+        width:1000px;
+    }
+
+    .textheader{
+        font-size: 35px;
+    }
+
+    .box1{
+        font-size: 30px;
+        width:420px;
+        height:320px;
+    }
+
+    .box2{
+        margin-top:30px;
+        font-size: 30px;
+        width:420px;
+        height:460px;
+    }
+  }
