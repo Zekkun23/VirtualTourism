@@ -5,14 +5,15 @@
 /*This is the css for the background color*/
 body{
     background-size: cover;
-    background-color: #92755B;
+    background-color: #54371d;
 }
 /*Header css, including the image*/
 header {
     height: 150px;
     background-size: cover;
     background-image:url("../images/headers/burjheader.jpg");
-    border-radius: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 20px #000000;
 }
 /*Header text css*/
 h1{
@@ -35,12 +36,12 @@ div{
     font-size: 40px;
     float: left;
     border-radius: 30px;
-    box-shadow: 0 0 40px #000000;
+    box-shadow: 0 0 20px  #000000;
 }
 /*Css only for the scrollable part of the page*/
 div.scroll {
     margin-top:30px;
-    background-color: #C0A27E;
+    background-color: #6391b0;
     border: 3px solid;
     width:750px;
     height:800px;
@@ -79,7 +80,7 @@ div.scroll::-webkit-scrollbar {
     font-size: 40px;
     float: right;
     border-radius: 30px;
-    background-color: #C0A27E;
+    background-color: #6391b0;
 }
 /*Css for the "About Landmark" text*/
 .textheader{
