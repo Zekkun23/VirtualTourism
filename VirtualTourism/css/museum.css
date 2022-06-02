@@ -132,7 +132,7 @@ div img{
 
     @media (min-width: 1551px) {
         div.scroll{
-            width:680px;
+            width:640px;
         }
     
         .map{
@@ -167,7 +167,7 @@ div img{
     }
 
     div.scroll{
-        width:480px;
+        width:460px;
     }
 
     .map{
@@ -175,7 +175,7 @@ div img{
     }
 
     .textheader{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .box1{

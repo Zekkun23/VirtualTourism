@@ -159,7 +159,7 @@ div img{
 
   @media (min-width: 1025px) and (max-width: 1550px) {
     div.scroll{
-        width:480px;
+        width:440px;
     }
 
     .map{

@@ -131,11 +131,11 @@ div img{
 
     @media (min-width: 1551px) {
         div.scroll{
-            width:680px;
+            width:700px;
         }
     
         .map{
-            width:1200px;
+            width:1100px;
         }
     
         .textheader{
@@ -163,7 +163,7 @@ div img{
     }
 
     .map{
-        width:1000px;
+        width:980px;
     }
 
     .textheader{

@@ -131,7 +131,7 @@ button{
 
     @media (min-width: 1551px) {
         div.scroll{
-            width:680px;
+            width:640px;
         }
     
         .map{
@@ -164,7 +164,7 @@ button{
     }
 
     div.scroll{
-        width:500px;
+        width:480px;
     }
 
     .map{

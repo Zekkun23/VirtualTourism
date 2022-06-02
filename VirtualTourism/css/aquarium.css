@@ -16,7 +16,7 @@ header {
 }
 /*Header text css*/
 h1{
-    font-size:90px;
+    font-size:80px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -124,13 +124,41 @@ div img{
     position:absolute;
     }
 
-@media only screen and (max-width: 2020px) {
+    @media (min-width: 1551px) {
+        div.scroll{
+            width:640px;
+        }
+    
+        .map{
+            width:1200px;
+        }
+    
+        .textheader{
+            font-size: 35px;
+        }
+    
+        .box1{
+            font-size: 30px;
+            width:580px;
+            height:280px;
+        }
+    
+        .box2{
+            margin-top:30px;
+            font-size: 30px;
+            width:580px;
+            height:240px;
+        }
+      }
+
+
+  @media (min-width: 1025px) and (max-width: 1550px) {
     div.scroll{
-        width:500px;
+        width:450px;
     }
 
     .map{
-        width:980px;
+        width:1000px;
     }
 
     .textheader{
@@ -139,41 +167,14 @@ div img{
 
     .box1{
         font-size: 30px;
-        width:450px;
-        height:320px;
+        width:420px;
+        height:400px;
     }
 
     .box2{
         margin-top:30px;
         font-size: 30px;
-        width:450px;
-        height:460px;
-    }
-  }
-
-  @media only screen and (min-width: 1366px) {
-    div.scroll{
-        width:480px;
-    }
-
-    .map{
-        width:970px;
-    }
-
-    .textheader{
-        font-size: 35px;
-    }
-
-    .box1{
-        font-size: 30px;
-        width:450px;
-        height:390px;
-    }
-
-    .box2{
-        margin-top:30px;
-        font-size: 30px;
-        width:450px;
-        height:270px;
+        width:420px;
+        height:300px;
     }
   }
